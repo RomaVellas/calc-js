@@ -113,8 +113,7 @@ const ResultCalc = ({ inputData, config }) => {
               </tbody>
               <tfoot>
                 <tr>
-                  <td>Итого: </td>
-                  <td>{allSum}</td>
+                  <td>Итого: {allSum}</td>
                 </tr>
               </tfoot>
             </table>
