@@ -1,0 +1,16 @@
+.width-selector {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.width-selector__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.width-selector__select {
+  padding: 10px;
+  max-width: 300px;
+}
