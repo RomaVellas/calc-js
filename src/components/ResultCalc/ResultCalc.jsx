@@ -60,6 +60,12 @@ const ResultCalc = ({ inputData, config }) => {
 
     setOpenTable(true);
   };
+
+  const allSum =
+    resultData.lists.sum +
+    resultData.pipes.sum +
+    parseInt(resultData.screws.sum, 10);
+
   return (
     <div className="result-calc">
       <div>
@@ -105,6 +111,12 @@ const ResultCalc = ({ inputData, config }) => {
                   <td>{resultData.screws.sum}</td>
                 </tr>
               </tbody>
+              <tfoot>
+                <tr>
+                  <td>Итого: </td>
+                  <td>{allSum}</td>
+                </tr>
+              </tfoot>
             </table>
           </>
         )}
