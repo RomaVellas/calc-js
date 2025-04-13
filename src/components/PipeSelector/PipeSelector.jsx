@@ -8,7 +8,6 @@ const PipeSelector = ({ inputData, setInputData, pipes }) => {
     setSelectedPipe(event.target.value);
     const currentPipe = pipes.find((pipe) => pipe.name === event.target.value);
     setInputData({ ...inputData, pipe: currentPipe });
-    console.log(`Selected Pipe: ${event.target.value}`);
   };
 
   return (

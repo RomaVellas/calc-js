@@ -10,7 +10,6 @@ const FrameSelector = ({ configFrames, inputData, setInputData }) => {
       (frame) => frame.name === event.target.value
     );
     setInputData({ ...inputData, frame: currentList });
-    console.log(`Selected Frame: ${event.target.value}`);
   };
 
   return (

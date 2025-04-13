@@ -30,8 +30,6 @@ const ResultCalc = ({ inputData, config }) => {
       }
     }).value;
 
-    console.log(screwsPerSqMeter);
-
     const rusultList = calcList(
       productWidth,
       productLength,

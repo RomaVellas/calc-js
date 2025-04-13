@@ -10,7 +10,6 @@ const MaterialSelector = ({ inputData, setInputData, materials }) => {
       (material) => material.name === event.target.value
     );
     setInputData({ ...inputData, list: currentList });
-    console.log(`Selected Material: ${event.target.value}`);
   };
 
   return (
